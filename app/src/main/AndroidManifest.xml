@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Name" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Phone" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Email" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Address" android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
